@@ -6,13 +6,23 @@
 
 ### Create Virtual Environment
 
-- `pip install virtualenv`
-- `python -m venv env`
-- `.\env\Scripts\activate`
+```python
+pip install virtualenv
+```
+
+```python
+python -m venv env
+```
+
+```python
+.\env\Scripts\activate
+```
 
 ### Install Requirement
 
-- `pip install -r requirements.txt`
+```python
+pip install -r requirements.txt
+```
 
 ### API:
 
@@ -21,13 +31,17 @@
 
 ### Run the app
 
-- `streamlit run app.py`
+```python
+streamlit run app.py
+```
 
 ### Limitation
 
 - Plot not working on the Streamlit UI
-- Free llms give wrong/weird answer sometimes
+- Free LLMs give wrong/weird answer sometimes
 
 ### References
 
+- [PandasAi](https://github.com/gventuri/pandas-ai)
+- [HuggingFace](https://huggingface.co/)
 - [Streamlit pandasai prompt driven data analysis using OpenAi API](https://bugbytes.io/posts/streamlit-pandasai-prompt-driven-data-analysis/)

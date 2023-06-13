@@ -50,7 +50,7 @@ numpy==1.24.3
 openai==0.27.8
 packaging==23.1
 pandas==1.5.3
-pandasai==0.5.0
+pandasai==0.5.2
 parso==0.8.3
 pickleshare==0.7.5
 Pillow==9.5.0
