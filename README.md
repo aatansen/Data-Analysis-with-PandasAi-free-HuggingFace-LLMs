@@ -6,21 +6,21 @@
 
 ### Create Virtual Environment
 
-```python
+```bash
 pip install virtualenv
 ```
 
-```python
+```bash
 python -m venv env
 ```
 
-```python
+```bash
 .\env\Scripts\activate
 ```
 
 ### Install Requirement
 
-```python
+```bash
 pip install -r requirements.txt
 ```
 
@@ -31,13 +31,13 @@ pip install -r requirements.txt
 
 ### Run the app
 
-```python
+```bash
 streamlit run app.py
 ```
 
 ### Limitation
 
-- Plot not working on the Streamlit UI
+- `matplotlib.use('TkAgg')` working with `pandasai==0.5.0` but buggy.
 - Free LLMs give wrong/weird answer sometimes
 
 ### References
